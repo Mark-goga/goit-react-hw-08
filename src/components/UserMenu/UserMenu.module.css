@@ -1,0 +1,13 @@
+.box {
+  display: flex;
+  gap: 20px;
+}
+.button {
+  /* width: 30px; */
+  /* height: 30px; */
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+.text {
+  font-size: 25px;
+}

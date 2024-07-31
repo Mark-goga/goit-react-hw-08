@@ -1,0 +1,10 @@
+.link {
+  font-size: 25px;
+}
+.wrapRegistration {
+  display: flex;
+  gap: 20px;
+}
+.active {
+  color: orange;
+}
