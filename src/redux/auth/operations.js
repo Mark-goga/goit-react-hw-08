@@ -9,7 +9,7 @@ function setAuthHeader(token) {
 
 export const register = createAsyncThunk("auth/register", async (newUser , thunkAPI) => {
   try {
-    const response = await axios.post("/users/signup", newUser);
+    const response = await axios.post("/uers/signup", newUser);
     setAuthHeader(response.data.token);
     return response.data
   } catch (e) {

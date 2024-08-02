@@ -1,4 +1,5 @@
 import { useDispatch } from "react-redux";
+import { toast } from "react-hot-toast";
 import { deleteContact } from "../../redux/contacts/operations";
 import css from './DeleteContactsModal.module.css'
 export default function DeleteContactsModal({contact , setModal}) {
@@ -8,7 +9,6 @@ export default function DeleteContactsModal({contact , setModal}) {
     setModal(false);
   }
   return (
-
     <div className={css.wrapBox}>
       <div className={css.box}>
         <p>you are sure you want to delete the contact?</p>
